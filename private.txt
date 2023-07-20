@@ -1,0 +1,41 @@
+Pho App Privacy Policy
+
+Effective Date: January 1, 2023
+
+Welcome to Pho App (referred to as the "App" below). This privacy policy is intended to explain the types of information we collect, use, and disclose, as well as how we process that information. Please read this privacy policy carefully to understand how we handle your personal information.
+
+Information Collection
+1.1 Information Provided by Users
+When using our App, you may need to provide some personal information, such as your name, email address, contact details, etc. This information will be used to identify you, provide the requested services, and communicate with you.
+
+1.2 Automatically Collected Information
+When you use our App, we may automatically collect certain information, including but not limited to:
+
+Device Information: including device model, operating system version, unique device identifiers, etc.
+Log Information: including the time you use the App, browser type, page access records, etc.
+Location Information: we will only collect and use your location information with your consent.
+
+Information Usage
+2.1 We may use the collected information to:
+
+Provide you with the requested services and fulfill your requests.
+Optimize and improve our App to enhance user experience.
+Analyze user behavior and trends to better understand user needs and preferences.
+Send you relevant notifications and updates.
+Handle complaints and disputes.
+Prevent fraud and protect user safety.
+
+Information Disclosure
+3.1 We will not sell, rent, or trade your personal information to third parties unless you have given your prior consent or as required by law.
+
+Applicable Law
+This privacy policy is governed by applicable laws and subject to the exclusive jurisdiction of the local courts.
+
+Updates to the Privacy Policy
+We may update this privacy policy from time to time to reflect our practices and legal requirements. We will provide notice in the updated privacy policy and encourage you to review the latest privacy policy regularly.
+
+If you have any questions or concerns about this privacy policy, please contact us at:
+
+Email: fregie@fregie.cn
+
+Thank you for reading our privacy policy. By using our App, you agree to the terms and conditions of this privacy policy.
