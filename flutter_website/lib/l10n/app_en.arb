@@ -1,0 +1,15 @@
+{
+  "mainTitle": "Elegantly synchronize photos.",
+  "mainDesc": "Pho is a serverless application, aimed to replace the built-in photo album on your phone. It provides an excellent browsing experience, not only allowing you to view local photos, but also to synchronize photos to network storage with various protocols*. It doesn't rely on any services and doesn't have any superfluous functions.",
+  "netStorages": "* Samba,WebDav,NFS and baidu net disk for now",
+  "apkDownlaod": "Android APK",
+  "iosDownload": "App store",
+  "featureSyncTitle": "Synchronize photos to network storage",
+  "featureSyncDesc": "Don't want your data to be hijacked? Don't want your data to be censored? Synchronize your photo album to your private network storage with one click. Support for Samba, WebDav, NFS, and Baidu Netdisk is already available.",
+  "featureViewTitle": "View photos elegantly",
+  "featureViewDesc": "Unlike other photo album synchronization apps, Pho provides an excellent browsing experience. You can completely use Pho to replace your system photo album. It allows you to separately view local photos and photos on the cloud, so one app can meet all your needs.",
+  "featureDataTile": "All data in your control",
+  "featureDataDesc": "Pho doesn't rely on any services. During synchronization, it uploads only the original images and thumbnails following a certain directory structure. This way, you will have complete control over your data, and you can use it in any way you like, at any time.",
+  "featureOpenSourceTitle": "Open source",
+  "featureOpenSourceDesc":"Pho is a free and open-source app. You can find its source code on GitHub, and you can use it freely without worrying about any hidden actions behind it."
+}

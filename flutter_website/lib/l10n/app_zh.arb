@@ -1,0 +1,15 @@
+{
+  "mainTitle": "优雅地浏览和同步你的相册。",
+  "mainDesc": "Pho是一款无服务端的应用,旨在替代你手机上的自带相册应用。它拥有优秀的浏览体验,不仅可以查看本地照片,还能将照片同步到多种协议*的网络储存,不依赖任何服务,没有多余功能。",
+  "netStorages": "* 目前支持Samba,WebDav,NFS以及百度网盘",
+  "apkDownlaod": "下载安卓APK",
+  "iosDownload": "App store",
+  "featureSyncTitle": "同步照片到网络储存",
+  "featureSyncDesc": "不想你的数据被绑架?不想你的数据被审查?一键同步你的相册到你的私有网络储存。已支持Samba,WebDav,NFS以及百度网盘。",
+  "featureViewTitle": "优雅地浏览照片",
+  "featureViewDesc": "和其他同步相册的app不同,Pho拥有优秀的浏览体验,你完全可以用Pho来替代你的系统相册,可以分别查看本地照片和云端的照片,一个app解决你的所有需求。",
+  "featureDataTile": "掌控你的数据",
+  "featureDataDesc": "Pho不依赖任何服务,同步时以一定的目录结构上传且只上传原图片和缩略图,你将完全掌控你的数据,随时以你喜欢的方式使用你的数据。",
+  "featureOpenSourceTitle": "开源免费",
+  "featureOpenSourceDesc": "Pho是一款开源免费的app,你可以在github上找到它的源码,并且你可以自由地使用它而不用担心它背后搞什么小动作。"
+}
