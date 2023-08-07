@@ -74,7 +74,7 @@ flutter:
     - assets/img/screenshot_iphone13_info.png
     - assets/img/screenshot_iphone13_smb.png
     - assets/img/screenshot_iphone13_view.png
-    - assets/apk/pho-release-16-1.3.2.apk
+    - assets/apk/pho-release-18-1.3.4.apk
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

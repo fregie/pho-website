@@ -79,7 +79,7 @@ Widget descContent(bool isMobile) {
                   //     "assets/apk/pho-release-16-1.3.2.apk",
                   //     "pho-release-16-1.3.2.apk"),
                   onPressed: () => launchUrl(
-                      Uri.parse("assets/assets/apk/pho-release-16-1.3.2.apk")),
+                      Uri.parse("assets/assets/apk/pho-release-18-1.3.4.apk")),
                   child: Row(
                     children: [
                       Icon(Icons.android, size: isMobile ? 18 : 24),
