@@ -11,5 +11,15 @@
   "featureDataTile": "All data in your control",
   "featureDataDesc": "Pho doesn't rely on any services. During synchronization, it uploads only the original images and thumbnails following a certain directory structure. This way, you will have complete control over your data, and you can use it in any way you like, at any time.",
   "featureOpenSourceTitle": "Open source",
-  "featureOpenSourceDesc":"Pho is a free and open-source app. You can find its source code on GitHub, and you can use it freely without worrying about any hidden actions behind it."
+  "featureOpenSourceDesc":"Pho is a free and open-source app. You can find its source code on GitHub, and you can use it freely without worrying about any hidden actions behind it.",
+  "proDesc01": "Unlock Additional Advanced Features",
+  "proDesc02": "Purchase Pho Pro within the iOS app and become a Photo Management Master, enabling you to expertly organize your data with greater professionalism.",
+  "encryptTitle": "Encrypt",
+  "encryptDesc": "Safely store photos in a dedicated space with AES Encryption. Only those with the right password can decrypt and view the photos, protecting them from unauthorized access.",
+  "filterTitle": "Custom sync",
+  "filterDesc": "Use personalized sync filters to exclude specific photos or videos from syncing. These filters enable sorting by time and file type. On iOS, an algorithm is specialized to sync only camera-captured photos.",
+  "paraTitle": "Multi-threaded Sync",
+  "paraDesc": "Simultaneously upload multiple photos using multi-threading, significantly enhancing the efficiency of photo backups. This enables you to back up all your photos in a shorter span of time.",
+  "dirTitle": "Multi dir structures",
+  "dirDesc": "A variety of optional directory structures for syncing files, catering to the diverse file organization needs of each individual."
 }

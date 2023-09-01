@@ -8,5 +8,5 @@ class Global {
 late AppLocalizations l10n;
 
 void initL10n(BuildContext context) {
-  l10n = AppLocalizations.of(context);
+  l10n = AppLocalizations.of(context)!;
 }

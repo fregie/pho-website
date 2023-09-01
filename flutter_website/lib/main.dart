@@ -1,4 +1,6 @@
+import 'dart:html';
 import 'dart:js_interop';
+import 'package:flutter_website/body_03.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_website/body_01.dart';
@@ -75,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
             header(),
             body01(),
             Body02(),
+            Body03(),
             Footer(),
           ],
         ),
@@ -98,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
           alignment: Alignment.bottomLeft,
           padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
           child: const Text("Pho",
-              style: TextStyle(fontSize: 30, fontFamily: "Ubuntu")),
+              style: TextStyle(fontSize: 30, fontFamily: "Sriracha-Regular")),
         ),
         Expanded(child: Container()),
         Container(

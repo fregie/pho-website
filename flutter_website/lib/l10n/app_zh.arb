@@ -7,9 +7,19 @@
   "featureSyncTitle": "同步照片到网络储存",
   "featureSyncDesc": "不想你的数据被绑架?不想你的数据被审查?一键同步你的相册到你的私有网络储存。已支持Samba，WebDav，NFS以及百度网盘。",
   "featureViewTitle": "优雅地浏览照片",
-  "featureViewDesc": "和其他同步相册的app不同，Pho拥有优秀的浏览体验,你完全可以用Pho来替代你的系统相册，可以分别查看本地照片和云端的照片，一个app解决你的所有需求。",
+  "featureViewDesc": "和其他同步相册的app不同，Pho拥有优秀的浏览体验，你完全可以用Pho来替代你的系统相册，可以分别查看本地照片和云端的照片，一个app解决你的所有需求。",
   "featureDataTile": "掌控你的数据",
   "featureDataDesc": "Pho不依赖任何服务，同步时以一定的目录结构上传且只上传原图片和缩略图，你将完全掌控你的数据，随时以你喜欢的方式使用你的数据。",
   "featureOpenSourceTitle": "开源免费",
-  "featureOpenSourceDesc": "Pho是一款开源免费的app，你可以在github上找到它的源码，并且你可以自由地使用它而不用担心它背后搞什么小动作。"
+  "featureOpenSourceDesc": "Pho是一款开源免费的app,你可以在github上找到它的源码，并且你可以自由地使用它而不用担心它背后搞什么小动作。",
+  "proDesc01": "解锁更多高级功能",
+  "proDesc02": "在IOS app中购买Pho pro，成为照片管理大师，更加专业地管理你的数据",
+  "encryptTitle": "加密储存",
+  "encryptDesc": "支持照片通过AES加密后再储存到你指定的空间，只有通过你提前设定好的正确的密码才能在客户端解密并浏览照片，避免你的照片泄露或被审查",
+  "filterTitle": "自定义同步",
+  "filterDesc": "你可以通过特制的同步过滤器来过滤掉你不想同步的照片/视频，过滤器支持按时间和文件类型过滤。在IOS上支持使用特别的算法来过滤出仅相机拍摄照片并同步",
+  "paraTitle": "多线程同步",
+  "paraDesc": "多线程同时上传多张照片，大大增加照片备份效率，让你能在更短的时间内备份好你的全部照片",
+  "dirTitle": "多种目录结构",
+  "dirDesc": "多种可选同步文件的目录结构，满足每个人的不同文件组织需求"
 }
