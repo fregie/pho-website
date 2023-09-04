@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             header(),
-            body01(),
+            Body01(),
             Body02(),
             Body03(),
             Footer(),
