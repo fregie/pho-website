@@ -87,7 +87,7 @@ class _Body01State extends State<Body01> {
                     //     "assets/apk/pho-release-16-1.3.2.apk",
                     //     "pho-release-16-1.3.2.apk"),
                     onPressed: () => launchUrl(Uri.parse(
-                        "assets/assets/apk/pho-release-18-1.3.4.apk")),
+                        "assets/assets/apk/pho-release-34-1.4.2.apk")),
                     child: Row(
                       children: [
                         Icon(Icons.android, size: isMobile ? 18 : 24),
