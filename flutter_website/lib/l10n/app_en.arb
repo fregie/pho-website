@@ -11,7 +11,7 @@
   "featureDataTile": "All data in your control",
   "featureDataDesc": "Pho doesn't rely on any services. During synchronization, it uploads only the original images and thumbnails following a certain directory structure. This way, you will have complete control over your data, and you can use it in any way you like, at any time.",
   "featureOpenSourceTitle": "Open source",
-  "featureOpenSourceDesc":"Pho is a free and open-source app. You can find its source code on GitHub, and you can use it freely without worrying about any hidden actions behind it.",
+  "featureOpenSourceDesc":"Pho is a free and open-source app. You can find its source code on GitHub, and you can use it freely without worrying about any hidden actions behind it.(The advanced features of Pho Pro are not open source.)",
   "proDesc01": "Unlock Additional Advanced Features",
   "proDesc02": "Purchase Pho Pro within the iOS app and become a Photo Management Master, enabling you to expertly organize your data with greater professionalism.",
   "encryptTitle": "Encrypt",

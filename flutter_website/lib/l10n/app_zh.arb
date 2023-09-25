@@ -11,7 +11,7 @@
   "featureDataTile": "掌控你的数据",
   "featureDataDesc": "Pho不依赖任何服务，同步时以一定的目录结构上传且只上传原图片和缩略图，你将完全掌控你的数据，随时以你喜欢的方式使用你的数据。",
   "featureOpenSourceTitle": "开源免费",
-  "featureOpenSourceDesc": "Pho是一款开源免费的app,你可以在github上找到它的源码，并且你可以自由地使用它而不用担心它背后搞什么小动作。",
+  "featureOpenSourceDesc": "Pho是一款开源免费的app,你可以在github上找到它的源码，并且你可以自由地使用它而不用担心它背后搞什么小动作。(Pho pro高级功能部分未开源)",
   "proDesc01": "解锁更多高级功能",
   "proDesc02": "在IOS app中购买Pho pro，成为照片管理大师，更加专业地管理你的数据",
   "encryptTitle": "加密储存",
