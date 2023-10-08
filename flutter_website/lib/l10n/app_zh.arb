@@ -2,8 +2,11 @@
   "mainTitle": "优雅地浏览和同步你的相册。",
   "mainDesc": "Pho是一款无服务端的应用，旨在替代你手机上的自带相册应用。它拥有优秀的浏览体验，不仅可以查看本地照片，还能将照片同步到多种协议*的网络储存，不依赖任何服务，没有多余功能。",
   "netStorages": "* 目前支持Samba,WebDav，NFS以及百度网盘",
-  "apkDownlaod": "下载安卓APK",
-  "iosDownload": "App store",
+  "desktopTip": "* Windows和Mac客户端目前仅支持查看云端照片",
+  "apkDownlaod": "安卓 APK",
+  "iosDownload": "IOS",
+  "windowsDownload": "Windows",
+  "macDownload": "Mac",
   "featureSyncTitle": "同步照片到网络储存",
   "featureSyncDesc": "不想你的数据被绑架?不想你的数据被审查?一键同步你的相册到你的私有网络储存。已支持Samba，WebDav，NFS以及百度网盘。",
   "featureViewTitle": "优雅地浏览照片",
@@ -21,5 +24,9 @@
   "paraTitle": "多线程同步",
   "paraDesc": "多线程同时上传多张照片，大大增加照片备份效率，让你能在更短的时间内备份好你的全部照片",
   "dirTitle": "多种目录结构",
-  "dirDesc": "多种可选同步文件的目录结构，满足每个人的不同文件组织需求"
+  "dirDesc": "多种可选同步文件的目录结构，满足每个人的不同文件组织需求",
+  "themeTitle": "多种主题配色",
+  "themeDesc": "多种可选的主题配色，用你最喜欢的主题色来浏览你的照片",
+  "releaseSpaceTitle": "释放储存空间",
+  "releaseSpaceDesc": "一键删除已同步照片，释放手机储存空间"
 }

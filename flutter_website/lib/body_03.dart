@@ -44,17 +44,27 @@ class _Body03State extends State<Body03> {
                   ),
                 ),
                 SizedBox(height: 30),
-                Wrap(
-                  children: [
-                    card([FontAwesomeIcons.lock], l10n.encryptTitle,
-                        l10n.encryptDesc),
-                    card([FontAwesomeIcons.filter], l10n.filterTitle,
-                        l10n.filterDesc),
-                    card([FontAwesomeIcons.arrowsUpToLine], l10n.paraTitle,
-                        l10n.paraDesc),
-                    card([FontAwesomeIcons.folderTree], l10n.dirTitle,
-                        l10n.dirDesc),
-                  ],
+                Container(
+                  constraints: BoxConstraints(
+                    maxWidth: 1500,
+                  ),
+                  child: Wrap(
+                    alignment: WrapAlignment.start,
+                    children: [
+                      card([FontAwesomeIcons.lock], l10n.encryptTitle,
+                          l10n.encryptDesc),
+                      card([FontAwesomeIcons.filter], l10n.filterTitle,
+                          l10n.filterDesc),
+                      card([FontAwesomeIcons.arrowsUpToLine], l10n.paraTitle,
+                          l10n.paraDesc),
+                      card([FontAwesomeIcons.folderTree], l10n.dirTitle,
+                          l10n.dirDesc),
+                      card([FontAwesomeIcons.palette], l10n.themeTitle,
+                          l10n.themeDesc),
+                      card([FontAwesomeIcons.solidHardDrive],
+                          l10n.releaseSpaceTitle, l10n.releaseSpaceDesc),
+                    ],
+                  ),
                 ),
                 SizedBox(height: 30),
                 SizedBox(
@@ -68,7 +78,7 @@ class _Body03State extends State<Body03> {
                       children: [
                         Icon(Icons.apple, size: 24),
                         const SizedBox(width: 5),
-                        Text(l10n.iosDownload, style: TextStyle(fontSize: 18)),
+                        Text("App store", style: TextStyle(fontSize: 18)),
                       ],
                     ),
                   ),
@@ -87,10 +97,6 @@ class _Body03State extends State<Body03> {
       child: Card(
           elevation: 0,
           shape: RoundedRectangleBorder(
-            // side: BorderSide(
-            //   width: 1.5,
-            //   color: Theme.of(context).colorScheme.outline.withAlpha(128),
-            // ),
             borderRadius: const BorderRadius.all(Radius.circular(15)),
           ),
           clipBehavior: Clip.antiAlias,
@@ -113,14 +119,6 @@ class _Body03State extends State<Body03> {
                                     ))
                                 .toList()),
                       ),
-                      // Container(
-                      //     width: constraints.maxWidth,
-                      //     height: 200,
-                      //     decoration: const BoxDecoration(
-                      //       borderRadius: BorderRadius.all(Radius.circular(10)),
-                      //     ),
-                      //     clipBehavior: Clip.antiAlias,
-                      //     child: Image.asset(imgPath, fit: BoxFit.fitWidth)),
                       Container(
                         padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
                         child: Text(title,

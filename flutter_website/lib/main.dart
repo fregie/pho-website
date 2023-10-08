@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     initL10n(context);
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 232, 232, 232),
+      backgroundColor: Color(0xFFE8E8E8),
       body: SingleChildScrollView(
         child: Column(
           children: [

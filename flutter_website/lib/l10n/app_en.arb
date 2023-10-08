@@ -2,8 +2,11 @@
   "mainTitle": "Elegantly synchronize photos.",
   "mainDesc": "Pho is a serverless application, aimed to replace the built-in photo album on your phone. It provides an excellent browsing experience, not only allowing you to view local photos, but also to synchronize photos to network storage with various protocols*. It doesn't rely on any services and doesn't have any superfluous functions.",
   "netStorages": "* Samba,WebDav,NFS and baidu net disk for now",
+  "desktopTip": "* Windows and mac version only support viewing cloud photos for now",
   "apkDownlaod": "Android APK",
-  "iosDownload": "App store",
+  "iosDownload": "IOS",
+  "windowsDownload": "Windows",
+  "macDownload": "Mac",
   "featureSyncTitle": "Synchronize photos to network storage",
   "featureSyncDesc": "Don't want your data to be hijacked? Don't want your data to be censored? Synchronize your photo album to your private network storage with one click. Support for Samba, WebDav, NFS, and Baidu Netdisk is already available.",
   "featureViewTitle": "View photos elegantly",
@@ -21,5 +24,9 @@
   "paraTitle": "Multi-threaded Sync",
   "paraDesc": "Simultaneously upload multiple photos using multi-threading, significantly enhancing the efficiency of photo backups. This enables you to back up all your photos in a shorter span of time.",
   "dirTitle": "Multi dir structures",
-  "dirDesc": "A variety of optional directory structures for syncing files, catering to the diverse file organization needs of each individual."
+  "dirDesc": "A variety of optional directory structures for syncing files, catering to the diverse file organization needs of each individual.",
+  "themeTitle": "Custom theme color",
+  "themeDesc": "Customize the theme color of the app to your liking, making it more personal and unique.",
+  "releaseSpaceTitle": "Release space",
+  "releaseSpaceDesc": "One-click delete synced photos to free up phone storage space."
 }
