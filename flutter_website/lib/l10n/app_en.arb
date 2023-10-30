@@ -4,6 +4,7 @@
   "netStorages": "* Samba,WebDav,NFS and baidu net disk for now",
   "desktopTip": "* Windows and mac version only support viewing cloud photos for now",
   "apkDownlaod": "Android APK",
+  "googlePlay": "Google Play",
   "iosDownload": "IOS",
   "windowsDownload": "Windows",
   "macDownload": "Mac",

@@ -4,6 +4,7 @@
   "netStorages": "* 目前支持Samba,WebDav，NFS以及百度网盘",
   "desktopTip": "* Windows和Mac客户端目前仅支持查看云端照片",
   "apkDownlaod": "安卓 APK",
+  "googlePlay": "Google Play",
   "iosDownload": "IOS",
   "windowsDownload": "Windows",
   "macDownload": "Mac",

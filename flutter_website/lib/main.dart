@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
     return Consumer<SettingModel>(
       builder: (context, value, child) {
         return MaterialApp(
-          title: 'Pho - Elegantly synchronize photos',
+          title: 'Pho - Synchronize photos to NAS(SMB/Webdav/NFS)',
           locale: settingModel.lang != null ? Locale(settingModel.lang!) : null,
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(

@@ -22,34 +22,30 @@ class _Body01State extends State<Body01> {
           isMobile = false;
         }
         return SizedBox(
-          height: isMobile ? 1100 : 800,
+          height: isMobile ? 1500 : 800,
           child: Container(
             padding: const EdgeInsets.fromLTRB(32, 0, 32, 0),
-            child: Stack(
-              children: [
-                constraints.maxWidth > 1000
-                    ? Center(
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            descContent(false),
-                            const SizedBox(width: 100),
-                            mainPic(false),
-                          ],
-                        ),
-                      )
-                    : Center(
-                        child: Column(
-                          children: [
-                            descContent(true),
-                            const SizedBox(height: 100),
-                            mainPic(true),
-                          ],
-                        ),
-                      )
-              ],
-            ),
+            child: constraints.maxWidth > 1000
+                ? Center(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        descContent(false),
+                        const SizedBox(width: 100),
+                        mainPic(false),
+                      ],
+                    ),
+                  )
+                : Center(
+                    child: Column(
+                      children: [
+                        descContent(true),
+                        const SizedBox(height: 40),
+                        mainPic(true),
+                      ],
+                    ),
+                  ),
           ),
         );
       },
@@ -65,6 +61,7 @@ class _Body01State extends State<Body01> {
     }
     return Flexible(
       child: Container(
+        height: 800,
         padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -93,100 +90,116 @@ class _Body01State extends State<Body01> {
                     color: Colors.grey,
                     fontFamily: "Ubuntu")),
             const SizedBox(height: 50),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                SizedBox(
-                  height: btnHeight,
-                  width: btnWidth,
-                  child: FilledButton(
-                    onPressed: () => launchUrl(
-                        Uri.parse("assets/assets/apk/pho-release-latest.apk")),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.android, size: isMobile ? 18 : 24),
-                        const SizedBox(width: 5),
-                        Text(l10n.apkDownlaod,
-                            style: TextStyle(fontSize: isMobile ? 14 : 18)),
-                      ],
+            Container(
+              width: 600,
+              child: Wrap(
+                spacing: 15,
+                runSpacing: 15,
+                children: [
+                  SizedBox(
+                    height: btnHeight,
+                    width: btnWidth,
+                    child: FilledButton(
+                      onPressed: () => launchUrl(Uri.parse(
+                          "https://play.google.com/store/apps/details?id=com.fregie.pho")),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          FaIcon(FontAwesomeIcons.googlePlay,
+                              size: isMobile ? 14 : 20),
+                          const SizedBox(width: 5),
+                          Text(l10n.googlePlay,
+                              style: TextStyle(fontSize: isMobile ? 14 : 18)),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-                const SizedBox(width: 20),
-                SizedBox(
-                  height: btnHeight,
-                  width: btnWidth,
-                  child: FilledButton(
-                    onPressed: () {
-                      String url = "https://apps.apple.com/us/app/id6451428709";
-                      if (Localizations.localeOf(context).languageCode ==
-                          "zh") {
-                        url = "https://apps.apple.com/cn/app/id6451428709";
-                      }
-                      launchUrl(Uri.parse(url));
-                    },
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.apple, size: isMobile ? 18 : 24),
-                        const SizedBox(width: 5),
-                        Text(l10n.iosDownload,
-                            style: TextStyle(fontSize: isMobile ? 14 : 18)),
-                      ],
+                  SizedBox(
+                    height: btnHeight,
+                    width: btnWidth,
+                    child: FilledButton(
+                      onPressed: () => launchUrl(Uri.parse(
+                          "assets/assets/apk/pho-release-latest.apk")),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.android, size: isMobile ? 18 : 24),
+                          const SizedBox(width: 5),
+                          Text(l10n.apkDownlaod,
+                              style: TextStyle(fontSize: isMobile ? 14 : 18)),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                SizedBox(
-                  height: btnHeight,
-                  width: btnWidth,
-                  child: FilledButton(
-                    onPressed: () =>
-                        launchUrl(Uri.parse("assets/assets/msi/pho.msi")),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        FaIcon(FontAwesomeIcons.windows,
-                            size: isMobile ? 14 : 20),
-                        const SizedBox(width: 10),
-                        Text(l10n.windowsDownload,
-                            style: TextStyle(fontSize: isMobile ? 14 : 18)),
-                      ],
+                  SizedBox(
+                    height: btnHeight,
+                    width: btnWidth,
+                    child: FilledButton(
+                      onPressed: () {
+                        String url =
+                            "https://apps.apple.com/us/app/id6451428709";
+                        if (Localizations.localeOf(context).languageCode ==
+                            "zh") {
+                          url = "https://apps.apple.com/cn/app/id6451428709";
+                        }
+                        launchUrl(Uri.parse(url));
+                      },
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.apple, size: isMobile ? 18 : 24),
+                          const SizedBox(width: 5),
+                          Text(l10n.iosDownload,
+                              style: TextStyle(fontSize: isMobile ? 14 : 18)),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-                const SizedBox(width: 20),
-                SizedBox(
-                  height: btnHeight,
-                  width: btnWidth,
-                  child: FilledButton(
-                    onPressed: () {
-                      String url = "https://apps.apple.com/us/app/id6451428709";
-                      if (Localizations.localeOf(context).languageCode ==
-                          "zh") {
-                        url = "https://apps.apple.com/cn/app/id6451428709";
-                      }
-                      launchUrl(Uri.parse(url));
-                    },
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        FaIcon(FontAwesomeIcons.desktop,
-                            size: isMobile ? 14 : 20),
-                        const SizedBox(width: 10),
-                        Text(l10n.macDownload,
-                            style: TextStyle(fontSize: isMobile ? 14 : 18)),
-                      ],
+                  SizedBox(
+                    height: btnHeight,
+                    width: btnWidth,
+                    child: FilledButton(
+                      onPressed: () =>
+                          launchUrl(Uri.parse("assets/assets/msi/pho.msi")),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          FaIcon(FontAwesomeIcons.windows,
+                              size: isMobile ? 14 : 20),
+                          const SizedBox(width: 10),
+                          Text(l10n.windowsDownload,
+                              style: TextStyle(fontSize: isMobile ? 14 : 18)),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              ],
+                  SizedBox(
+                    height: btnHeight,
+                    width: btnWidth,
+                    child: FilledButton(
+                      onPressed: () {
+                        String url =
+                            "https://apps.apple.com/us/app/id6451428709";
+                        if (Localizations.localeOf(context).languageCode ==
+                            "zh") {
+                          url = "https://apps.apple.com/cn/app/id6451428709";
+                        }
+                        launchUrl(Uri.parse(url));
+                      },
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          FaIcon(FontAwesomeIcons.desktop,
+                              size: isMobile ? 14 : 20),
+                          const SizedBox(width: 10),
+                          Text(l10n.macDownload,
+                              style: TextStyle(fontSize: isMobile ? 14 : 18)),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
