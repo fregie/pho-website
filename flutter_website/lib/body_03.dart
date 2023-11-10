@@ -67,21 +67,44 @@ class _Body03State extends State<Body03> {
                   ),
                 ),
                 SizedBox(height: 30),
-                SizedBox(
-                  height: 50,
-                  width: 200,
-                  child: FilledButton(
-                    onPressed: () => launchUrl(Uri.parse(
-                        "https://apps.apple.com/cn/app/pho-%E5%90%8C%E6%AD%A5%E7%85%A7%E7%89%87%E5%88%B0nas-%E7%BD%91%E7%9B%98/id6451428709")),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.apple, size: 24),
-                        const SizedBox(width: 5),
-                        Text("App store", style: TextStyle(fontSize: 18)),
-                      ],
+                Wrap(
+                  alignment: WrapAlignment.center,
+                  spacing: 15,
+                  runSpacing: 15,
+                  children: [
+                    SizedBox(
+                      height: 50,
+                      width: 200,
+                      child: FilledButton(
+                        onPressed: () => launchUrl(Uri.parse(
+                            "https://play.google.com/store/apps/details?id=com.fregie.pho")),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            FaIcon(FontAwesomeIcons.googlePlay, size: 24),
+                            const SizedBox(width: 5),
+                            Text("Google Play", style: TextStyle(fontSize: 18)),
+                          ],
+                        ),
+                      ),
                     ),
-                  ),
+                    SizedBox(
+                      height: 50,
+                      width: 200,
+                      child: FilledButton(
+                        onPressed: () => launchUrl(Uri.parse(
+                            "https://apps.apple.com/cn/app/pho-%E5%90%8C%E6%AD%A5%E7%85%A7%E7%89%87%E5%88%B0nas-%E7%BD%91%E7%9B%98/id6451428709")),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.apple, size: 24),
+                            const SizedBox(width: 5),
+                            Text("App store", style: TextStyle(fontSize: 18)),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ));
